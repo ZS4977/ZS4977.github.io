@@ -1,0 +1,21 @@
+.map_background {
+  background-color: black !important;
+}
+
+.map {
+  width: 90%;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+  padding-bottom: 200px;
+  background-color: black;
+}
+
+.button__icon,
+.button__text {
+  display: none !important;
+}
+
+.map-widget-layout-view__top-right-controls {
+  display: none !important;
+}

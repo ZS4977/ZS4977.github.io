@@ -1,0 +1,33 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+.left_section a,
+.right_section a,
+.middle_section a {
+  color: #fff;
+}
+.block_temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block_temp img {
+  display: block;
+  object-fit: cover;
+}
+.map {
+  padding-bottom: 20px !important;
+}
+.left_click,
+.right_click {
+  position: absolute;
+  cursor: pointer;
+}
+.left_click {
+  left: 30px;
+}
+.right_click {
+  right: 30px;
+  transform: rotate(180deg);
+}

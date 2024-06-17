@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc Berger</title>
+    <link rel="stylesheet" href="./css/new_location.css">
+    <link rel="stylesheet" href="./css/nav_bar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
+<body>
+
+    <main>
+        <div class="wrapper">
+            <header id="header" class="header">
+
+                <nav class="menu" id="menu">
+                    <div class="left_section">
+                        <a  class="menu_about" href="index.html#first_about"> ABOUT</a>
+                        <a class="menu_locations" href="index.html#contact"> CONTACT</a> 
+                    </div>
+
+                    <div class="middle_section">
+                        <a class="menu_marc_berger" href="index.html"> MARC BERGER </a> 
+                    </div>
+
+                    <div class="right_section">
+                        <a class="menu_new_location" href="index.html#location"> LOCATION</a>
+                        <a class="menu_contact" href="./new_location.html">NEW LOCATION</a>
+                    </div>
+                </nav>
+
+                <div class="header_2">
+                    <div class="hero_name_background_img">
+                        <h1 > suggest a new location</h1>
+                    </div>
+                    <div class="form">
+                        <form id="form_m" >
+                            <div class="form_group">
+                                <div>
+                                    <label>City:</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="city"  class="city" placeholder="City">
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <div>
+                                    <label>Country:</label>
+                                </div>
+                                <div>
+                                    <input type="text" class="country"  id="country" placeholder="country">
+                                </div>
+                            </div>
+                            <div class="form_group row">
+                                <div class="date_from">
+                                    <div>
+                                        <label>Date from:</label>
+                                    </div>
+                                    <div>
+                                        <input type="date" id="date_from" name="date_from">
+                                    </div>
+
+                                </div>
+                                <div class="date_to">
+                                    <div>
+                                        <label>Date to:</label>
+                                    </div>
+                                    <div>
+                                        <input type="date" id="date_to" name="date_to">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <div>
+                                    <label>Description:</label>
+                                </div>
+                                <div>
+                                    <textarea class="description" id="description" cols="20" rows="15"></textarea>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <!-- Why cant i add a onclick function in javasciprt ?  -->
+                                <button class="btn" id="btn_add">Send</button>
+                                <button class="clearButton" id="clearButton" >Clear Fields</button>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    
+                   
+                </div>
+
+
+                
+            </header>
+        <main>
+
+        </main>
+           
+    <footer class="footer">
+        <div class="copyright" id="copyright"></div>
+    </footer>
+   
+    <script>
+        let city = 'Toronto';
+    </script>
+    <script src="./js/app.js" ></script>
+    </body>
+
+
+</html>

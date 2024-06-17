@@ -1,0 +1,58 @@
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+    color: white;
+    font-family: "PlayfeirDisplay";
+    font-weight: 700;
+    height: 250px;
+  
+    
+    
+}
+
+.contact img{
+    width: 30px;
+}
+
+.contact_text{
+font-size: 60px;
+margin-bottom: 40px;
+}
+
+.youtube{
+    transition: all 0.2s;
+    
+}
+
+.youtube:hover{
+    opacity: 0.8;
+    transform: translateY(-3px);
+   
+}
+
+
+
+.instagram{
+    transition: all 0.2s;
+    margin: 0 30px;
+}
+
+.instagram:hover{
+        opacity: 0.8;
+        transform: translateY(-3px); 
+    }
+    
+
+    .twiter{
+        transition: all 0.2s;
+    
+    }
+    
+    .twiter:hover{
+        opacity: 0.8;
+        transform: translateY(-3px);
+       
+    }
+    

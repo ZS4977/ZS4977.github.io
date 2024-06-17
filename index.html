@@ -1,1 +1,237 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc Berger</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav_bar.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/travel_list.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <link rel="stylesheet" href="./css/footer.css">
+<body>
+
+    <main>
+        <div class="wrapper">
+            <header id="header" class="header">
+                                    <!-- Navigation Bar -->
+                <nav class="menu" id="menu">
+                    <div class="left_section">
+                        <a  class="menu_about" href="#first_about"> ABOUT</a>
+                        <a class="menu_locations" href="#contact"> CONTACT</a> 
+                    </div>
+
+                    <div class="middle_section">
+                        <a class="menu_marc_berger" href="/Projekt_Travel/index.html"> MARC BERGER </a> 
+                    </div>
+
+                    <div class="right_section">
+                        <a class="menu_new_location" href="#location"> LOCATION</a>
+                        <a target="_blank" class="menu_contact" href="/Projekt_Travel/new_location.html">NEW LOCATION</a>
+                    </div>
+                </nav>
+                                        <!-- first section of page  -->
+                <div class="hero_name">
+                    <div class="hero_name_background_img">
+                        <h1 > MARC BERGER</h1>
+                    </div>
+                    
+                    <div class="lottie_files">
+                        <div class="lottie-file">
+                            <img src="./icon/scroll_down.png" id="scroll_down1" alt="scroll_down">
+                        </div>
+                        <div class="lottie-file">
+                            <img id="scroll_down2" src="./icon/scroll_down.png" alt="scroll_down">
+                        </div>
+    
+                    </div>
+                </div>
+
+
+                
+            </header>
+                                        <!-- Breaking line  -->
+                <div class="breaking_line">
+                    <div class="breaking_line_arrow" ></div>
+                </div>
+                                        <!-- About Section  -->
+             <div class="first_about"  id="first_about">
+                <div class="first_about_readme"> 
+                    <div class="first_about_readme_header">
+                        <div class="header_design">      
+                        </div> <h2>About</h2> 
+                    </div>
+
+
+                  
+                    <div class="first_about_readme_text">
+
+                        <div class="text_design"></div>
+                        
+                        <p id="contact">
+                            I'm Marc Berger, a 25-year-old adventurer residing in the heart of Thailand, where every corner holds a new discovery.
+                            <p>Join me as I traverse the vibrant cities of this captivating country, weaving tales of adventure and offering insights, tips, and the joy of stumbling upon the unexpected. Whether you're a seasoned traveler or an armchair adventurer, there's something here for you to enjoy.</p>
+                            <p>So, kick back, grab a cup of your favorite brew, and let's embark on this exciting adventure together!</p>
+                       </p>
+                   
+                    </div>
+                    </div>
+
+
+                    <div class="firts_about_img">
+                        <img   src="./images/first_about_img.jpg" alt="me and my friend">
+                    </div>
+                </div>
+
+                                        <!-- Contact section -->
+                <div class="contact">
+                    <div class="contact_text"> Get in Touch</div>
+                    <div class="contact_icons">
+                        <a target="_blank" href="https://www.pexels.com/de-de/@ollivves/"><img class="youtube" src="./icon/youtube.png" alt="youtube"></a>
+                        <a target="_blank" href="https://www.pexels.com/de-de/@ollivves/"><img class="instagram" src="./icon/instagram.png" alt="instaram"></a>
+                        <a target="_blank" href="https://www.pexels.com/de-de/@ollivves/"> <img class="twiter"  src="./icon/twiter.png" alt="twiter"></a>
+                    </div>
+                </div>
+            
+                                        <!-- Breaking line -->
+                <div class="breaking_line">
+                    <div class="breaking_line_arrow"></div>
+                </div>
+
+                                        <!-- Travel list -->
+                <div class="travel_list_header">
+                    <h2  id="location"> loca<span class="highlight">t</span>ions</h2>
+                    <div class="locations_line"></div>
+                </div>
+
+                <div class="travel_list">
+                    <a href="city1.html" target="_blank" class="travel_list_item">
+
+                        <div class="travel_list_item_img">
+                           <img src="./images/thailand.jpg" alt="icon_berlin">
+                        </div>
+                        
+                           <div class="travel_list_item_location" onclick="linktocity()"> <img class="location_icon" src="./icon/welt.png" alt="Location_icon" >Bangkok
+                          </div>
+
+                        <div class="travel_list_item_date">
+                            <div class="travel_list_item_date_icon">
+                               <img src="./icon/date_icon.png" alt="icon_date">
+                            </div>
+                           <div class="travel_list_item_date_text">
+                                   05.12.2020-14.12.2020
+                            </div>
+                       </div>
+                    </a>
+                   <a href="city2.html" class="travel_list_item" target="_blank">
+                       <div class="travel_list_item_img">
+                           <img src="./images/shri_lanka.jpg" alt="icon_berlin">
+                       </div>
+                       <div class="travel_list_item_location"> <img class="location_icon" src="./icon/welt.png" alt="Location_icon">Chiang Mai
+                       </div>
+                       <div class="travel_list_item_date">
+                            <div class="travel_list_item_date_icon">
+                               <img src="./icon/date_icon.png" alt="icon_date">
+                            </div>
+                           <div class="travel_list_item_date_text">
+                               14.12.2020-25.12.2020
+                           </div>
+                       </div>
+                    </a>
+                   <a href="city3.html" target="_blank"  class="travel_list_item">
+                       <div class="travel_list_item_img">
+                           <img src="./images/phuket.jpg" alt="icon_berlin">
+                       </div>
+                       <div class="travel_list_item_location"> <img class="location_icon" src="./icon/welt.png" alt="Location_icon" > Koh Phi Phi</div>
+                       <div class="travel_list_item_date">
+                            <div class="travel_list_item_date_icon">
+                               <img src="./icon/date_icon.png" alt="icon_date">
+                            </div>
+                           <div class="travel_list_item_date_text">
+                               25.12.2020-02.01.2021
+                           </div>
+                       </div>
+                    </a>
+                   <a href="city4.html" target="_blank"  class="travel_list_item">
+                       <div class="travel_list_item_img">
+                           <img src="./images/chenay.jpg" alt="icon_berlin">
+                       </div>
+                       <div class="travel_list_item_location"> <img class="location_icon" src="./icon/welt.png" alt="Location_icon" > Phuket</div>
+                       <div class="travel_list_item_date">
+                            <div class="travel_list_item_date_icon">
+                               <img src="./icon/date_icon.png" alt="icon_date">
+                            </div>
+                           <div class="travel_list_item_date_text">
+                               02.01.2021-20.01.2021
+                           </div>
+                       </div>
+                    </a>
+                   <a href="city5.html" target="_blank"  class="travel_list_item">
+                       <div class="travel_list_item_img">
+                           <img src="./images/bali.jpg" alt="icon_berlin">
+                       </div>
+                       <div class="travel_list_item_location"> <img class="location_icon" src="./icon/welt.png" alt="Location_icon" >Pattaya</div>
+                       <div class="travel_list_item_date">
+                         <div class="travel_list_item_date_icon">
+                               <img src="./icon/date_icon.png" alt="icon_date">
+                            </div>
+                           <div class="travel_list_item_date_text">
+                               20.01.2021-28.01.2021
+                           </div>
+                       </div>
+                    </a>
+                   <a href="city6.html" target="_blank"  class="travel_list_item">
+                       <div class="travel_list_item_img">
+                           <img src="./images/bora_bora.jpg" alt="icon_berlin">
+                       </div>
+                       <div class="travel_list_item_location"> <img class="location_icon" src="./icon/welt.png" alt="Location_icon" > Krabi</div>
+                       <div class="travel_list_item_date">
+                         <div class="travel_list_item_date_icon">
+                               <img src="./icon/date_icon.png" alt="icon_date">
+                            </div>
+                           <div class="travel_list_item_date_text">
+                               28.01.2021-25.01.2021
+                           </div>
+                       </div>
+                    </a>
+               </div>
+           </div> 
+   
+
+
+                                        <!-- Breaking line -->
+            <div class="breaking_line">
+                 <div class="breaking_line_arrow"></div>
+            </div>
+                                        <!-- Map -->
+             <div class="map_background">
+                <div class="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae5d6845555860a913d268e14e417c6bfb2af8dcb78387645f449554c4de59791&amp;width=100%25&amp;height=400&amp;lang=en_En&amp;scroll=false"></script>
+                </div>
+            </div>
+         </div>  
+    </main>
+                                        <!-- Footer (copyright) -->
+    <footer class="footer">
+        <div class="copyright" id="copyright"></div>
+    </footer>
+                                        <!-- Arrow up to fist section -->
+    <div id="top_block" >
+        <img src="./icon/arrow_upp.png">
+    </div>
+                                        <!-- Javascript -->
+    <script>
+        let city = 'Toronto';
+    </script>
+
+    <script src="./js/app.js" >
+
+    </script>
+
+    </body>
+
+
+</html>

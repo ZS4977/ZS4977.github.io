@@ -1,0 +1,57 @@
+.header {
+    background-image: linear-gradient(to top, #000, rgba(0, 0, 0, .66) 16%, rgba(0, 0, 0, 0) 35%), url('/Projekt_Travel/images/back.jpg'); 
+    background-size: cover; 
+    background-position: bottom;
+    height: 100vh; 
+
+  }
+  
+
+
+
+.hero_name {
+    height: 79vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    mix-blend-mode: difference ; /* Change blend mode */
+    filter: brightness(120%); /* Adjust brightness */
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-top: 150px;
+  
+
+}
+
+
+.hero_name_background_img{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 70px;
+    font-family: "PlayfeirDisplay";
+    letter-spacing: 20px;
+
+}
+
+
+.lottie-file{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.lottie-file img{
+    width: 25px;
+    opacity: 0.7;
+   
+}
+
+
+
+
